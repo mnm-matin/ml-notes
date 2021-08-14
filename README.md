@@ -19,3 +19,11 @@ Also also includes jupyter notebooks for:
 Also also also includes scripts for:
 - setting up dev environment on brand new computer
 - scheduling jobs on cluster
+
+
+## Conda Commands
+conda update conda
+
+conda create -n mlbase python
+
+conda env export --from-history | grep -v "prefix" > environment.yml
