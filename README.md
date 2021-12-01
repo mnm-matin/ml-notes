@@ -22,12 +22,13 @@ Also also also includes scripts for:
 
 
 ## Conda Commands
+'''
 conda update conda
 
 conda create -n mlbase python
 
 conda env export --from-history | grep -v "prefix" > environment.yml
-
+'''
 ## Git Commands
 
 List curent remotes
