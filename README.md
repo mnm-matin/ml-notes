@@ -61,21 +61,13 @@ Note: use --reabase for pulling for syncing changes
 ```
 ## VSCODE
 keyboard shortcuts
-'''
+```
 Ctrl + Alt + Up/Down    Add Cursors
-
 Shift + Alt + Up/Down   Copy Line Up/Down
-
 Alt + Up/Down           Move Line(s) Up/Down
-
 Ctrl + D                Add Cursor next to match
-
 Ctrl + U                Cursor Undo
-
 Ctrl + Shift + \        Go to Bracket
-
 Ctrl + ]                Indent Line Forward
-
 Ctrl + W                Close Tab
-
-'''
+```
