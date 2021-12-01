@@ -22,11 +22,16 @@ Also also also includes scripts for:
 
 
 ## Conda Commands
+update conda itself
 ```
 conda update conda
-
+```
+create environment with latest python
+```
 conda create -n mlbase python
-
+```
+save conda environment (clean)
+```
 conda env export --from-history | grep -v "prefix" > environment.yml
 ```
 ## Git Commands
