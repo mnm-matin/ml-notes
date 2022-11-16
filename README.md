@@ -38,11 +38,33 @@ Disable Upstream Push
 ```
 git remote set-url --push origin no_push
 ```
+Creating Branches
+```
+Add branches notes
+```
+
 Pull from upstream
 ```
-git pull upstream mlp2021-22/coursework2
-Note: use --reabase for pulling for syncing changes
+git pull upstream <branch>
 ```
+
+Note on pulling changes
+```
+Avoid running git pull with local changes present as it creates a merge commit
+git pull --ff-only (runs git pull but only if it can be fast-forwarded)
+git pull --rebase (replays local changes after pulling remote changes)
+
+Setting in config (use --global flag for global changes)
+git config pull.ff only
+git config pull.rebase true
+```
+
+Interactivs Rebase commits
+```
+git rebase -i upstream branch
+```
+
+
 ## VSCODE
 keyboard shortcuts
 ```
