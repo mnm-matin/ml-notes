@@ -1,25 +1,9 @@
 # ml-base
-Highly opinionated starter for machine learning projects. I will be starting from scratch (i.e empty repo).
-Includes:
-- ML-Framework: PyTorch (Tensorflow is great for production)
-- Monitoring: Comet.ml
-- Conda Envs
-- VS Code (with configs and extensions)
-- Linting and Code Formatters
-
-Also includes markdown files for:
-- Setting up Cloud Computing (Google Cloud, AWS, University of Edinburgh Informatics Clusters)
-- Panda (All the things I search on stackoverflow everytime)
-
-Also also includes jupyter notebooks for:
-- Common Data Analysis things
-- Mini-Project 1: .....
-- Mini-Project 2: .....
-
-Also also also includes scripts for:
-- setting up dev environment on brand new computer
-- scheduling jobs on cluster
-
+My notes on Machine Learning as I work on projects. I realized that I was looking up the same things too frequently so decided to make notes and logs.
+- General Workflow: git, conda, wsl, vscode notes
+- Data preprocessing: pandas, numpy notes
+- Training: pytorch, tensorflow, hyperparamater tuning, cluster notes
+- Domain Specific: time series, object detection, nlp notes
 
 ## Conda Commands
 update conda itself
