@@ -2,7 +2,7 @@
 
 ## Packages
 
-Good summary provided by [pyhopper paper] (https://arxiv.org/pdf/2210.04728.pdf)
+Good summary provided by [pyhopper paper](https://arxiv.org/pdf/2210.04728.pdf)
 
 - HyperOpt: parallelization is supported via Apache Spark
 - Optuna: parallelization is supported via MySQL
