@@ -1,5 +1,12 @@
 # First-setup dev environment
 
+## Install Miniconda
+```
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+rm Miniconda3-latest-Linux-x86_64.sh
+```
+
 ## transfer from command line [transfer.sh](https://transfer.sh)
 ```
 nano ~/.bashrc
