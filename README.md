@@ -64,6 +64,12 @@ Interactivs Rebase commits
 git rebase -i upstream branch
 ```
 
+Submodules
+```
+
+```
+
+
 
 ## VSCODE
 keyboard shortcuts
