@@ -66,7 +66,10 @@ git rebase -i upstream branch
 
 Submodules
 ```
-
+get submodule after cloning
+git submodule update --init
+for nested submodules
+git submodule update --init --recursive
 ```
 
 
