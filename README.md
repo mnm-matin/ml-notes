@@ -5,15 +5,24 @@ My notes on Machine Learning as I work on projects. I realized that I was lookin
 - Training: pytorch, tensorflow, hyperparamater tuning, cluster notes
 - Domain Specific: time series, object detection, nlp notes
 
-## Conda Commands
-update conda itself
+## Create Environment
+
+### Python virtualenv
 ```
-conda update conda
+python3 -m venv env
 ```
+
+### Conda Commands
 create environment with latest python
 ```
 conda create -n mlbase python
 ```
+
+update conda itself
+```
+conda update conda
+```
+
 save conda environment (clean)
 ```
 conda env export --from-history | grep -v "prefix" > environment.yml
@@ -38,6 +47,7 @@ Disable Upstream Push
 ```
 git remote set-url --push origin no_push
 ```
+
 Creating Branches
 ```
 Add branches notes
