@@ -8,6 +8,7 @@ My notes on Machine Learning as I work on projects. I realized that I was lookin
 ## Create Environment
 
 ### Python virtualenv
+create environment with name env
 ```
 python3 -m venv env
 ```
