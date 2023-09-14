@@ -23,3 +23,6 @@ Generative AI Models
 
 padding visualiztion
 ![Padding Visualization](https://miro.medium.com/v2/resize:fit:1400/1*Tq_lyA2uRy4BTBpYlbKTTQ.gif)
+
+- *Valid* padding means no padding
+- *Same* padding preserves the input size
