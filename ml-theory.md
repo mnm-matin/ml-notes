@@ -26,3 +26,10 @@ padding visualiztion
 
 - *Valid* padding means no padding
 - *Same* padding preserves the input size
+
+
+Ouptut Size of Convolution is the integer
+```
+output_width = (input_width - kernel_size + 2*padding_size) / stride + 1
+```
+
