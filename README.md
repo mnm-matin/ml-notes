@@ -46,7 +46,7 @@ git fetch origin
 
 Disable Upstream Push
 ```
-git remote set-url --push origin no_push
+git remote set-url --push upstream no_push
 ```
 
 Creating Branches
